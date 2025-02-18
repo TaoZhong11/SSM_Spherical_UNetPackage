@@ -1,9 +1,9 @@
-# [Spherical U-Net package](https://pypi.org/project/sphericalunet/)
+# Spherical U-Net with State Space Models
 Python-based spherical cortical surface processing tools, including spherical resampling, interpolation, parcellation, registration, atlas construction, etc. It provides fast and accurate cortical surface-based data analysis using deep learning techniques.
 
 ## Update
 
-2025-02-18: Now we have integrated State Space Models (SSMs) into the Spherical U-Net, improving its ability to capture long-range dependencies and enhance feature representation for icosahedron-discretized spherical surface data.
+2025-02-18: Now we have integrated State Space Models (SSMs) into the Spherical U-Net, as AdvancedSSMUNet_Full class in model file, improving its ability to capture long-range dependencies and enhance feature representation for icosahedron-discretized spherical surface data.
 
 ## Main tools
 [**I/O vtk file**](https://github.com/zhaofenqiang/SphericalUNetPackage/blob/main/sphericalunet/utils/vtk.py). Python function for reading and writing .vtk surface file. Example code:
